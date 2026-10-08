@@ -4,11 +4,12 @@ body {
 
     div.container {
         width: 780px;
-        border: 1px dotted blue;
+        border: 0 dotted blue;
         margin: 0 auto; /*tb rl*/
         background-color: white;
 
         section.middle {
+
             padding: 20px;
             background-image: url('files/uofu_medallion_rt.gif');
             background-position: bottom right;
@@ -53,7 +54,7 @@ body {
                 padding: 10px 10px 10px 15px;
 
                 aside {
-                    border: 1px solid black;
+                    border: 0 solid black;
 
                     &.left {
                         width: 30%;
@@ -91,7 +92,7 @@ body {
 
                     h1 {
                         text-transform: uppercase;
-                        color: #505A2F;
+                        color: darkred;
                         border-bottom: 2px dashed #505A2F;
                         font-size: 16px;
                         font-weight: normal;
@@ -110,7 +111,7 @@ body {
                     }
 
                     a {
-                        color: #505A2F;
+                        color: darkred;
                         text-align: right;
 
                     }
