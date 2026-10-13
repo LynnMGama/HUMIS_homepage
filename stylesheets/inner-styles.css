@@ -1,8 +1,10 @@
 :root {
-    --green: #676E3D
+    --green: #676E3D;
 }
 
 body {
+    font-family: arial, helvetica, sans-serif;
+
     background-color: #292827;
     display: flex;
     justify-content: center;
@@ -11,6 +13,12 @@ body {
         background-color: #fff;
         width: 780px;
         min-height: 600px;
+
+        header {
+            img{
+                display:block
+            }
+        }
 
         section.middle {
             display: flex;
@@ -45,12 +53,13 @@ body {
                     .links {
                         display: flex;
                         flex-direction: column;
+                        margin-bottom: 2rem;
                     }
                 }
 
                 &.right-side {
                     width: 65%;
-                    min-height: 600px;
+                    /*min-height: 600px;*/
                     display: flex;
                     justify-content: space-between;
                     flex-direction: column;
@@ -72,8 +81,6 @@ body {
                         }
 
                         main {
-                            border:1px dotted black;
-
                             img {
                                 &.pull-right {
                                     float: right;
@@ -85,9 +92,16 @@ body {
                         a {
                             color: black;
                             text-decoration: none;
+                            border-right: 1px solid black;
+                            padding-right: 5px;
+                            margin-left: 3px;
 
                             &:hover {
                                 text-decoration: underline;
+                            }
+
+                            &:last-of-type {
+                                border-right: none;
                             }
                         }
 

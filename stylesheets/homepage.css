@@ -8,6 +8,12 @@ body {
         margin: 0 auto; /*tb rl*/
         background-color: white;
 
+        header {
+            img{
+                display:block
+            }
+        }
+
         section.middle {
 
             padding: 20px;
