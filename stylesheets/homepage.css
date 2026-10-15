@@ -9,8 +9,8 @@ body {
         background-color: white;
 
         header {
-            img{
-                display:block
+            img {
+                display: block
             }
         }
 
@@ -115,23 +115,22 @@ body {
                             text-align: right;
                         }
                     }
-                    }
+                }
 
-                    a {
-                        color: darkred;
-                        text-align: right;
+                a {
+                    color: darkred;
+                    text-align: right;
 
-                    }
                 }
             }
         }
+    }
 
-        footer {
-            background-color: #686F3E;
-            color: white;
-            font-size: 11px;
-            text-align: center;
-            padding: 10px 0;
-        }
+    footer {
+        background-color: #686F3E;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        padding: 10px 0;
     }
 }
