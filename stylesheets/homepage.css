@@ -98,8 +98,8 @@ body {
 
                     h1 {
                         text-transform: uppercase;
-                        color: darkred;
-                        border-bottom: 2px dashed #505A2F;
+                        color: #686F3E;
+                        border-bottom: 2px dashed darkred;
                         font-size: 16px;
                         font-weight: normal;
                     }
@@ -114,6 +114,7 @@ body {
                         &.link {
                             text-align: right;
                         }
+                    }
                     }
 
                     a {
