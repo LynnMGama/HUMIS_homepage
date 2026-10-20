@@ -103,18 +103,11 @@ body {
 
                     main {
                         min-height: 600px;
-
-                        img {
-                            &.pull-right {
-                                float: right;
-                            }
                         }
                     }
                 }
-
             }
         }
-
 
         footer {
             background-color: var(--green);
@@ -124,4 +117,3 @@ body {
             padding: 10px 0;
         }
     }
-}
