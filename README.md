@@ -1,4 +1,4 @@
-## HUMIS project
+## HUMIS Project
 
 ### Lessons and takeaways from HUMIS project.
 
