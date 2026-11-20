@@ -37,4 +37,13 @@ main {
             }
         }
     }
+
+    aside.right-column{
+        div.center-pic {
+            img {
+                min-width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
 }

@@ -38,6 +38,7 @@ body {
                     border-right: 1px solid;
 
                     nav {
+                        margin-top: 15px;
                         a {
                             display: block;
                             color: black;
@@ -81,6 +82,7 @@ body {
 
                         &.top-nav {
                             text-transform: uppercase;
+                            border-bottom: 6px solid white;
                         }
 
                         &.bottom-nav {
