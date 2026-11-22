@@ -16,12 +16,12 @@ body {
     }
 
     h1 {
-        font-size:2.1rem;
+        font-size:2rem;
         display: inline-block;
         border-bottom:9px solid var(--burgundy);
-        line-height:23px;
-        padding: 0;
-        margin: 15px 0 15px 0;
+        line-height:21px;
+        padding: 10px 0 0 15px;
+        margin: 10px 0 15px 0;
     }
 
     h2 {

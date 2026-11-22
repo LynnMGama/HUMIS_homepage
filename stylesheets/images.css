@@ -40,8 +40,12 @@ main {
 
     aside.right-column{
         div.center-pic {
-            img {
+            img.grad {
                 min-width: 100%;
+                border-radius: 10px;
+            }
+            img.student {
+                max-width: 100%;
                 border-radius: 10px;
             }
         }
